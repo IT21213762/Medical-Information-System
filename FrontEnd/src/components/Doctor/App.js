@@ -17,7 +17,7 @@ const DoctorApp = () => {
   };
 
   const todayAppointments = [
-    { id: 1, time: "09:00", patientName: "John Doe", patientId: "P001" },
+    { id: 1, time: "09:00", patientName: "John Doen", patientId: "P001" },
     { id: 2, time: "10:30", patientName: "Jane Smith", patientId: "P002" },
     { id: 3, time: "14:00", patientName: "Bob Johnson", patientId: "P003" }
   ];

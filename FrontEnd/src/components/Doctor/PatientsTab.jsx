@@ -87,7 +87,7 @@ const PatientsTab = ({ patients, onPatientSelect }) => {
               {filteredPatients.length === 0 ? (
                 <TableRow>
                   <TableCell colSpan={3} sx={{ textAlign: 'center', py: 4 }}>
-                    No patients found
+                    No patients found!
                   </TableCell>
                 </TableRow>
               ) : (

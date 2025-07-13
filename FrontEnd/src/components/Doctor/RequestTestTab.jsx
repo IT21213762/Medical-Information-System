@@ -16,7 +16,7 @@ const RequestTestTab = ({ labRequests, patients, onAddRequest }) => {
     "CT Scan",
     "MRI",
     "ECG",
-    "Ultrasound"
+    "Ultrasound."
   ];
 
   const handleSubmit = (e) => {

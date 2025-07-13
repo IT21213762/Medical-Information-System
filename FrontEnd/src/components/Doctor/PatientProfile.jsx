@@ -130,14 +130,14 @@ const PatientProfile = ({ patient, onBack, onRequestTest, onWritePrescription })
             onClick={onRequestTest}
             sx={{ textTransform: 'none' }}
           >
-            • Request Lab Test
+            Request Lab Test
           </Button>
           <Button 
             variant="outlined" 
             onClick={onWritePrescription}
             sx={{ textTransform: 'none' }}
           >
-            • Write Prescription
+            Write Prescription
           </Button>
         </Box>
       </Paper>

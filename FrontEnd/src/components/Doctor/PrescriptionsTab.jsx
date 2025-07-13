@@ -41,7 +41,7 @@ const PrescriptionsTab = ({ prescriptions, onCreatePrescription }) => {
         hour: '2-digit', 
         minute: '2-digit' 
       }),
-      status: "Pending"
+      status: "Pending..."
     };
     onCreatePrescription(prescriptionData);
     

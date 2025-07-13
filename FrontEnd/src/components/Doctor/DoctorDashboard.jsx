@@ -70,21 +70,21 @@ const DoctorDashboard = ({ doctor, todayAppointments, recentActivity, onQuickAct
             onClick={() => onQuickAction('findPatient')}
             sx={{ justifyContent: 'flex-start', textTransform: 'none' }}
           >
-            • Find Patient
+            Find Patient
           </Button>
           <Button 
             variant="outlined" 
             onClick={() => onQuickAction('requestTest')}
             sx={{ justifyContent: 'flex-start', textTransform: 'none' }}
           >
-            • Request Lab Test
+            Request Lab Test
           </Button>
           <Button 
             variant="outlined" 
             onClick={() => onQuickAction('writePrescription')}
             sx={{ justifyContent: 'flex-start', textTransform: 'none' }}
           >
-            • Write Prescription
+            Write Prescription
           </Button>
         </Box>
       </Paper>
